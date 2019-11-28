@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".activity.NavigationActivity"></activity>
+        <activity
+            android:name=".activity.DrawerNavigationActivity"
+            android:label="@string/title_activity_drawer_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".activity.NotifiCationActivity" />
         <activity android:name=".activity.TabLayoutActivity" />
         <activity android:name=".activity.CoordinatorActivity" />

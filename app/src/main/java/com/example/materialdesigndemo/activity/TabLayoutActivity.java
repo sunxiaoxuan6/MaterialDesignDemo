@@ -54,6 +54,12 @@ public class TabLayoutActivity extends AppCompatActivity {
     }
 
     private void initView() {
+        tabs = findViewById(R.id.tabs_layout);
+        viewPager = findViewById(R.id.view_pager);
 
+        // 初始化Toolbar
+        toolbar = findViewById(R.id.tool_bar1);
+        toolbar.setTitle("TabLayout示例");
+        setSupportActionBar(toolbar);
     }
 }

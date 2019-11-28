@@ -38,7 +38,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class CoordinatorActivity extends AppCompatActivity
-        implements SwipeRefreshLayout.OnRefreshListener {
+    implements SwipeRefreshLayout.OnRefreshListener {
 
     private static final String NEWS_URL="http://v.juhe.cn/toutiao/index";
     private static final int GET_NEWS=1;

@@ -10,9 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
-    //    聚合数据
-    private static final String WEATHER_URL="http://v.juhe.cn/toutiao/index";
-    private static final String WEATHER_APP_KEY="234f1a253352054c294ef16692c7011b";
     private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 break;
             case R.id.btn_navigation:
-//                intent=new Intent(MainActivity.this,NavigationActivity.class);
-//                startActivity(intent);
+                intent=new Intent(MainActivity.this,DrawerNavigationActivity.class);
+                startActivity(intent);
                 break;
             case R.id.btn_notification:
                 intent=new Intent(MainActivity.this,NotifiCationActivity.class);
