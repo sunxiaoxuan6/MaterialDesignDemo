@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/to_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btn_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView的应用"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CoordinatorLayout的应用"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TabLayout的应用"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/btn_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation的应用"
+        android:onClick="onClick"
+        android:textAllCaps="false"/>
+    <Button
+    android:id="@+id/btn_notification"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Notification的应用"
+    android:onClick="onClick"
+    android:textAllCaps="false"/>
+</LinearLayout>
