@@ -16,7 +16,6 @@ import com.example.materialdesigndemo.adapter.NewsAdapter;
 import com.example.materialdesigndemo.model.News;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.snackbar.Snackbar;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -142,6 +141,9 @@ public class CoordinatorActivity extends AppCompatActivity
                 refresh.setRefreshing(false);
             }
         },3000);
+    }
+
+    public void sendEmail(View view) {
     }
 
     static class NewHandler extends Handler{
